@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  parser:
+    build: ./parser
+    ports:
+      - 9080:9080
+    
