@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  ce_parser:
+  parser:
     build: ./parser
     ports:
       - 9080:9080
